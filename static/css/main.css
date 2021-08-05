@@ -23,7 +23,7 @@ th {
 }
 
 td {
-    text-align: center;
+    white-space: break-spaces;
     padding: 5px;
 }
 
