@@ -1,7 +1,7 @@
 #!/bin/sh
-while read oldrev newrev refname
+while read -r refname
 do
-branch=$(git rev-parse --symbolic --abbrev-ref $refname)
+branch=$(git rev-parse --symbolic --abbrev-ref "$refname")
 if [ "main" = "$branch" ]; then
 unset GIT_DIR;
 cd /code/notez && git pull && docker-compose up -d --build;

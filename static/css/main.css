@@ -1,36 +1,39 @@
-body, html {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: #ade6d1;
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #ade6d1;
 }
 
 .content {
-    margin: 0 auto;
-    width: 400px;
+  margin: 0 auto;
+  width: 400px;
 }
 
-table, td, th {
-    border: 1px solid #aaa;
+table,
+td,
+th {
+  border: 1px solid #aaa;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 th {
-    height: 30px;
+  height: 30px;
 }
 
 td {
-    white-space: break-spaces;
-    padding: 5px;
+  white-space: break-spaces;
+  padding: 5px;
 }
 
 .form {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #content {
-    width: 70%;
+  width: 70%;
 }
