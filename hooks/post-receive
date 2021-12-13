@@ -1,5 +1,5 @@
 #!/bin/sh
-while read -r refname
+while read -r oldrev newrev refname
 do
 branch=$(git rev-parse --symbolic --abbrev-ref "$refname")
 if [ "main" = "$branch" ]; then
