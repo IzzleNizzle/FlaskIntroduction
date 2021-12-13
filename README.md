@@ -3,8 +3,7 @@
 
 ### had to redo the process once i changed the branch from master to main
 
-
- 510  rm -rf notez
+  510  rm -rf notez
   511  mkdir /notez
   514  mkdir /bare/notez;
   515  cd /bare/notez;
