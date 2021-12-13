@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_sqlalchemy.model import DefaultMeta
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///test.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///sqlite_db/test.db"
 db = SQLAlchemy(app)
 BaseModel: DefaultMeta = db.Model
 

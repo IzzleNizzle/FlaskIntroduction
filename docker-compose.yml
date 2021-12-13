@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - sqlite-db:/usr/src/app
+      - sqlite-db:/app/sqlite_db
     ports:
       - 5004:5000
     environment:
