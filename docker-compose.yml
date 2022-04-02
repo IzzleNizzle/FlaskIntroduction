@@ -13,6 +13,7 @@ services:
     environment:
       - FLASK_APP=src/__init__.py
       - FLASK_ENV=production
+    restart: unless-stopped
 
 volumes:
   sqlite-db:
